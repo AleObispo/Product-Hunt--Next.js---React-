@@ -4,9 +4,9 @@ import DetallesProducto from '../components/layout/DetallesProducto';
 import useProductos from '../hooks/useProductos';
 
 
-const Home = ( ) => {
+const Populares = ( ) => {
 
-  const { productos } = useProductos('creado')
+const { productos } = useProductos('votos')
 
 
   return (
@@ -30,4 +30,5 @@ const Home = ( ) => {
   )
 }
 
-export default Home
+export default Populares
+
